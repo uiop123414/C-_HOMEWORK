@@ -135,18 +135,18 @@ public:
     }
 };
 
-int main(){
-    BTree<int> tree(2);
-    tree.insert_item(1);
-    tree.insert_item(1);
-    tree.insert_item(2);
-    tree.insert_item(2);
-    tree.insert_item(2);
-    tree.insert_item(8);
-    tree.insert_item(3);
-    tree.insert_item(5);
-    tree.insert_item(7);
-    printf("\n");
-    tree.print_Tree_Nice();
-    return 0;
-}
+//int main(){
+//    BTree<int> tree(2);
+//    tree.insert_item(1);
+//    tree.insert_item(1);
+//    tree.insert_item(2);
+//    tree.insert_item(2);
+//    tree.insert_item(2);
+//    tree.insert_item(8);
+//    tree.insert_item(3);
+//    tree.insert_item(5);
+//    tree.insert_item(7);
+//    printf("\n");
+//    tree.print_Tree_Nice();
+//    return 0;
+//}

@@ -212,26 +212,26 @@ public:
 
 
 
-int main(){
-    List<int> ls;
-    ls.add_to_head(10);
-    ls.add_to_head(20);
-    ls.add_to_head(30);
-    ls.add_to_tail(50);
-    ls.add_to_tail(60);
-    ls.add_to_tail(70);
-    ls.print_List();
-    printf("********************INSERT*****************************\n");
-    ls.insert(1000,1234);
-    ls.print_List(false);
-    printf("********************INSERT_TRUE_PRINT*****************************\n");
-    ls.print_List(true);
-    printf("********************REPLACE_TRUE_PRINT*****************************\n");
-    ls.replace(3,2280);
-    ls.print_List(true);
-    printf("********************REPLACE_FALSE_PRINT*****************************\n");
-    ls.remove(3);
-    ls.print_List();
-    printf("********************GET_ITEM_FALSE_PRINT*****************************\n");
-    std::cout<<"Node i = 3 , var = "<<ls[-7];
-}
+//int main(){
+//    List<int> ls;
+//    ls.add_to_head(10);
+//    ls.add_to_head(20);
+//    ls.add_to_head(30);
+//    ls.add_to_tail(50);
+//    ls.add_to_tail(60);
+//    ls.add_to_tail(70);
+//    ls.print_List();
+//    printf("********************INSERT*****************************\n");
+//    ls.insert(1000,1234);
+//    ls.print_List(false);
+//    printf("********************INSERT_TRUE_PRINT*****************************\n");
+//    ls.print_List(true);
+//    printf("********************REPLACE_TRUE_PRINT*****************************\n");
+//    ls.replace(3,2280);
+//    ls.print_List(true);
+//    printf("********************REPLACE_FALSE_PRINT*****************************\n");
+//    ls.remove(3);
+//    ls.print_List();
+//    printf("********************GET_ITEM_FALSE_PRINT*****************************\n");
+//    std::cout<<"Node i = 3 , var = "<<ls[-7];
+//}
